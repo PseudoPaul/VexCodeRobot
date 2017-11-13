@@ -39,6 +39,10 @@ void operatorControl() {
 
 		clawSet(joystickGetAnalog(1, 4));
 
+		if(joystickGetDigital(1, 6, JOY_UP)) {
+			liftSet(127);
+		}
+
 		delay(20);
 	}
 }

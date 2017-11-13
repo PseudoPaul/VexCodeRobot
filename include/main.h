@@ -28,6 +28,7 @@
 #include <API.h>
 #include "chassis.h"
 #include "claw.h"
+#include "lift.h"
 
 // Allow usage of this file in C++ programs
 #ifdef __cplusplus
